@@ -26,6 +26,10 @@ body {
     border: 1px solid #333;
 }
 
+.white.active {
+    background-color: #CCC;
+}
+
 .black {
     --width: 60px;
     background-color: black;
@@ -33,4 +37,8 @@ body {
     margin-right: calc(var(--width) / -2);
     z-index: 2; /* To show up all over the keys */
 
+}
+
+.black.active {
+    background-color: #333;
 }
